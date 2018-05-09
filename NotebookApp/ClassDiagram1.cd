@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NotebookApp.Image" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Image.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NotebookApp.MessageList">
+    <Position X="3.75" Y="5.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="NotebookApp.MessageList.BulletType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MessageList.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MessageList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotebookApp.Notebook">
+    <Position X="9" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAQAAAAAAABAAAAAgEoAQAAABAAAAgAAA=</HashCode>
+      <FileName>Notebook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotebookApp.NotebookLogger">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABACAgABAAAABAAAAIAAAAAAAQCAAAAAAAAAAAA=</HashCode>
+      <FileName>NotebookLogger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotebookApp.TextualMessage">
+    <Position X="3.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAEAIAAAAAAAA=</HashCode>
+      <FileName>TextualMessage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Struct Name="NotebookApp.PageData">
+    <Position X="1.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>PageData.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="NotebookApp.IPageable">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>IPageable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
