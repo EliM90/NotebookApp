@@ -13,5 +13,20 @@ namespace WindowsFormsApp1 {
         public MainForm() {
             InitializeComponent();
         }
+
+        private void _loadButton_Click(object sender, EventArgs e) {
+            var loadForm = new LoadForm();
+            loadForm.ShowDialog();
+            var sb = new StringBuilder(loadForm.Notes.Count);
+            foreach (var note in loadForm.Notes) {
+                sb.AppendLine(note);
+            }
+            _outputRichTextBox.Text = sb.ToString();
+        }
+
+        private void _newButton_Click(object sender, EventArgs e) {
+            var newForm = new NewForm();
+            newForm.ShowDialog();
+        }
     }
 }

@@ -23,28 +23,28 @@ namespace NotebookApp {
             attach();
         }
 
-        private void printAdded(string typeItemAdded) {
+        private void onPrintAdded(string newTitle) {
 
         }
 
-        private void printDeleted(string idOfDeleted) {
+        private void onPrintDeleted(string UpdatedTitle) {
 
         }
 
-        private void printUpdated(string idOfDeleted) {
+        private void onPrintUpdated(string titile, string updatedTitle) {
 
         }
 
         private void attach() {
-            _trackedNotebook.ItemAdded += printAdded;
-            _trackedNotebook.ItemRemoved += printDeleted;
-            _trackedNotebook.ItemUpdated += printUpdated;
+            _trackedNotebook.ItemAdded += onPrintAdded;
+            _trackedNotebook.ItemRemoved += onPrintDeleted;
+            _trackedNotebook.ItemUpdated += onPrintUpdated;
         }
 
         private void detach() {
-            _trackedNotebook.ItemAdded -= printAdded;
-            _trackedNotebook.ItemRemoved -= printDeleted;
-            _trackedNotebook.ItemUpdated -= printUpdated;
+            _trackedNotebook.ItemAdded -= onPrintAdded;
+            _trackedNotebook.ItemRemoved -= onPrintDeleted;
+            _trackedNotebook.ItemUpdated -= onPrintUpdated;
         }
     }
 }

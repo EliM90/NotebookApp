@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Notes>
+  <Notebook Author ="John">
+    <Note Title="First">
+      Hello world
+    </Note>
+    <Note Title="Second">
+      Hii
+    </Note>
+  </Notebook>
+</Notes>

@@ -36,6 +36,7 @@
             this._loadButton.TabIndex = 0;
             this._loadButton.Text = "Load";
             this._loadButton.UseVisualStyleBackColor = true;
+            this._loadButton.Click += new System.EventHandler(this._loadButton_Click);
             // 
             // _newButton
             // 
@@ -45,6 +46,7 @@
             this._newButton.TabIndex = 1;
             this._newButton.Text = "New";
             this._newButton.UseVisualStyleBackColor = true;
+            this._newButton.Click += new System.EventHandler(this._newButton_Click);
             // 
             // _outputRichTextBox
             // 

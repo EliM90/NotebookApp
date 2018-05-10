@@ -96,5 +96,14 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NotebookApp\NotebookApp.csproj">
+      <Project>{9eff48d2-3ac6-4dca-8116-ede9b3e04912}</Project>
+      <Name>NotebookApp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Notes\Notes.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

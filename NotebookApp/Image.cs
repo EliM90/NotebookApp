@@ -10,11 +10,11 @@ namespace NotebookApp {
 
         public PageData PageData { get; set; }
 
-        public IPageable Input() {
+        public IPageable Input(string author, string title, string note) {
             throw new NotImplementedException();
         }
 
-        public void Output() {
+        string IPageable.Output() {
             throw new NotImplementedException();
         }
     }

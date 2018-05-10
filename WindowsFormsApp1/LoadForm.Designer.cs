@@ -85,6 +85,7 @@
             this._fetchComboBox.Name = "_fetchComboBox";
             this._fetchComboBox.Size = new System.Drawing.Size(100, 21);
             this._fetchComboBox.TabIndex = 4;
+            this._fetchComboBox.SelectedIndexChanged += new System.EventHandler(this._fetchComboBox_SelectedIndexChanged);
             // 
             // _acceptButton
             // 
@@ -95,9 +96,11 @@
             this._acceptButton.TabIndex = 5;
             this._acceptButton.Text = "Accept";
             this._acceptButton.UseVisualStyleBackColor = true;
+            this._acceptButton.Click += new System.EventHandler(this._acceptButton_Click);
             // 
             // LoadForm
             // 
+            this.AcceptButton = this._acceptButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(169, 106);
@@ -108,7 +111,9 @@
             this.Controls.Add(this._titleLabel);
             this.Controls.Add(this._fetchLabel);
             this.Controls.Add(this._nameLabel);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "LoadForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "LoadForm";
             this.ResumeLayout(false);
             this.PerformLayout();

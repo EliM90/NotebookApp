@@ -76,6 +76,7 @@
             // 
             // NewForm
             // 
+            this.AcceptButton = this._saveButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(325, 326);
@@ -84,7 +85,9 @@
             this.Controls.Add(this._notesLabel);
             this.Controls.Add(this.TitleLabel);
             this.Controls.Add(this._nameLabel);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "NewForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "NewForm";
             this.ResumeLayout(false);
             this.PerformLayout();

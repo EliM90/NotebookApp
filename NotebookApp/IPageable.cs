@@ -7,7 +7,7 @@ namespace NotebookApp {
 
     public interface IPageable {
         PageData PageData { get; set; }
-        IPageable Input();
-        void Output();
+        IPageable Input(string author, string title, string note);
+        string Output();
     }
 }
